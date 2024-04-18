@@ -1,7 +1,3 @@
----
-layout: default
-title: "projects"
----
 
 
 # MY PROJECTS
