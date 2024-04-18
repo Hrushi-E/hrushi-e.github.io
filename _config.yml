@@ -14,9 +14,9 @@ show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
 
 # Menu
-
+# Just removed
+#- {file: "index.md",title: "Home"}
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  #- {file: "index.md",title: "Home"}
   - {file: "skills.md",title: "Skills"}
   - {url: "https://hrushi-e.github.io/hrushikeshetikikotaresume.pdf" , title: "Resume"}
   - {file: "projects.md",title: "Projects"}
