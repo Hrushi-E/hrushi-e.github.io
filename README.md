@@ -13,10 +13,10 @@ I am pursuing an MTech 2nd year in Computer Science and Engineering with a curre
 
 Here are a few **projects** I worked on and am still working on [Projects](/projects.md)
 
-Here is my **resume**: [Resume](/hrushikeshetikikotaresume.pdf)
+Here is my **resume**: [Resume](/resume.pdf)
 
-I love to play chess online(Even before the Pandemic). It helps me to know more about myself. Here is my [lichess profile](https://lichess.org/@/Strangestone)
+I love to play chess online. It helps me to know more about myself. Here is my [lichess profile](https://lichess.org/@/Strangestone)
 
-I love to spend more time alone by listening to spiritual songs and videos on YouTube. Sometimes I read them when I want to know more about their meanings.
+I love to spend time by listening to spiritual songs and videos on YouTube. Sometimes I read them when I want to know more about their meanings.
 
 I also participate in **competitive coding** on various platforms.Here are [profiles](/coding.md)

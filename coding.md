@@ -1,10 +1,9 @@
 
-I started COmpetitive Coding in my third year of BTECH in CODECHEF. It was time I used to spend a lot of time coding, usually at the time of long challenges. 
-After solving many questions, it became a habit. I liked it. To solve problems, I had to focus and not think about anything else. That kind of focus
-I liked it a lot. I kept on coding till the end of BTECH. I also practiced in HACKERRANK. 
+I started Competitive Coding in my third year of BTECH in CODECHEF. It was time I used to spend a lot of time coding, usually at the time of long challenges. 
+After solving many questions, it became a habit. I liked it. I kept on coding till the end of BTECH. I also practiced in HACKERRANK. 
 
 Later I took a break to prepare for GATE. Then after the first semester of my MTECH, I started coding again but this time from LEETCODE. While preparing for placements, I came 
-across the strive sheet and started coding in CODINGNINJAS. Sometimes I participate in CODEFORCES challenges to solve at least 3 problems (LOL). I hope one day I will solve it.
+across the strive sheet and started coding in CODINGNINJAS. Sometimes I participate in CODEFORCES challenges to solve minimum 3 problems. I hope one day I will solve it.
 
 Here are profiles
 
