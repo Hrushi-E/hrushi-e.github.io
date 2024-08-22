@@ -2,18 +2,24 @@
   
   Here is my link to GitHub, which contains most of the codes: [GitHub](https://github.com/Hrushi-E)
   
-  **CURRENT MTECH PROJECT**
+  **MTECH PROJECT**
   
-  * FlexTree: Gaze-Controlled Interfaces with Context-Based Letter and Word Predictions [Jan 2023 - Present]
+  * FlexTree: Gaze-Controlled Interfaces with Context-Based Letter and Word Predictions [Jan 2023 - Jun 2024]
   
   * Developed a **novel intelligent multimodal virtual tree-based text entry interface** using **Tkinter** with **audio and visual feedback** upon entering letters to detect dyslexic children.
     
   * Build a **light weight language model for English language** by **training on 300k+ token text**,  which helps **predict the next probable character** using **PPM(prediction by partial matching) and NCP(Next Character Prediction)**.
   
   * Incorporated **Eye-Tribe Eye Tracker** and **mouse** functionality for **selection of the letters** on interface.
+
+  * Obtained a typing speed of 30.70 and 18.47 letters per minute using the mouse and the eye tracker, respectively, which are nearly 2.7 times more than that of the Dasher with both input devices.
+
+  * Baseed on the above work, we submitted paper titled "Predictive Tree-based Virtual Keyboard for Improved Gaze Typing" to IEEE SMC2024 and got accepted.
+
+  * Currently working on publishing journal based on the work.
+
     
-  * Yet to conduct experiments and analyze results to compare with the existing **Dasher Text entry interface**.
-  * Later We are planning to extend it's design for dyslexic people.
+
   
   
   **BTECH PROJECTS**
