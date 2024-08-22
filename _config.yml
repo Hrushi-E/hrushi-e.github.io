@@ -18,7 +18,7 @@ minimal: false             # use a dark header
 #- {file: "index.md",title: "Home"}
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "skills.md",title: "Skills"}
-  - {url: "https://hrushi-e.github.io/resume.pdf" , title: "Resume"}
+  - {url: "https://hrushi-e.github.io/Hrushikesh_Resume_Turing.pdf" , title: "Resume"}
   - {file: "projects.md",title: "Projects"}
   - {file: "experience.md",title: "Experience"}
   - {file: "achievements.md", title: "Achievements"}
