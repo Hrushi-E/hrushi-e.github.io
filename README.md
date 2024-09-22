@@ -17,7 +17,7 @@ I am pursuing an MTech 2nd year in Computer Science and Engineering with a curre
 
 Here are a few **projects** I worked on and am still working on [Projects](/projects.md)
 
-Here is my **resume**: [Resume](/Hrushikesh_Resume_Turing.pdf)
+Here is my **resume**: [Resume](/Hrushikesh_Resume.pdf)
 
 I love to play chess online(Even before the Pandemic). It helps me to know more about myself. Here is my [lichess profile](https://lichess.org/@/Strangestone)
 
