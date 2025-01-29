@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <label for="toggle">Toggle Dark Mode</label>
+        <input type="checkbox" id="toggle">
+    </div>
+
+    <div class="container">
+        <div class="profile-image">
+            <img src="website_image.jpeg" alt="Profile Image">
+        </div>
+        <div class="bubbles">
+            <a href="#about" class="bubble"><span>About Me</span></a>
+            <a href="#education" class="bubble"><span>Education</span></a>
+            <a href="#projects" class="bubble"><span>Projects</span></a>
+            <a href="#experience" class="bubble"><span>Experience</span></a>
+            <a href="#achievements" class="bubble"><span>Achievements</span></a>
+            <a href="#skills" class="bubble"><span>Skills</span></a>
+            <a href="#resume" class="bubble"><span>Resume</span></a>
+            <a href="#contact" class="bubble"><span>Contact Me</span></a>
+        </div>
+    </div>
+
+    <div class="sections">
+
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hey there! 👋 Thanks for visiting my portfolio. This space showcases my work, projects, and what excites me.</p>
+        
+            <h3>👨‍💻 Current Position</h3>
+            <p>I am currently working as an <strong>LLM - Python Engineer</strong>. My focus is on prompt engineering, function calling, and structured output generation projects. I work on creating notebooks for Supervised Fine Tuning for large language models, enhancing their performance, and improving their interactions.</p>
+        
+            <h3>🔍 What I Do</h3>
+            <p>I enjoy exploring the intersection of technology, problem-solving, and innovation. Whether it’s coding, AI, or performance optimization, I’m always looking for new challenges.</p>
+        
+            <h3>💡 Projects & Work</h3>
+            <p>From AI-based applications to system performance analysis, I’ve worked on diverse projects. Check out some of my projects <a href="#projects">here</a>.</p>
+
+            <h3>🏆 Competitive Coding</h3>
+            <p>I love solving problems and competing on various coding platforms. Here are my profiles:</p>
+            <ul>
+                <li><a href="https://www.codingninjas.com/studio/profile/Hrushi2" target="_blank">Coding Ninjas</a></li>
+                <li><a href="https://www.hackerrank.com/hrushi2" target="_blank">HackerRank</a></li>
+                <li><a href="https://www.codechef.com/users/hrushi2" target="_blank">CodeChef</a></li>
+                <li><a href="https://codeforces.com/profile/EHK2" target="_blank">CodeForces</a></li>
+                <li><a href="https://leetcode.com/Hrushi_2000/" target="_blank">LeetCode</a></li>
+            </ul>
+            <div class="bubble-icon" onclick="scrollToTop()">⬆️ Scroll up</div>
+        </section>
+        
+
+        
+
+
+
+
+
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1" cellpadding="7" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Duration</th>
+                        <th>Grade/CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MTech in Computer Science and Engineering</td>
+                        <td>Indian Institute of Technology, Gandhinagar</td>
+                        <td>2022-2024</td>
+                        <td>8.71/10</td>
+                    </tr>
+                    <tr>
+                        <td>BTech in Computer Science and Engineering</td>
+                        <td>Sri Venkateswara University College of Engineering, SV University</td>
+                        <td>2017-2021</td>
+                        <td>8.68/10</td>
+                    </tr>
+                    <tr>
+                        <td>Intermediate Studies</td>
+                        <td>Sri Siddhartha Junior College, Madanapalle</td>
+                        <td>2015-2017</td>
+                        <td>988/1000</td>
+                    </tr>
+                    <tr>
+                        <td>Tenth</td>
+                        <td>SPVB High School, Mulakalacheruvu</td>
+                        <td>2015</td>
+                        <td>9.8/10</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+            <div class="bubble-icon" onclick="scrollToTop()">⬆️ Scroll up</div>
+        </section>
+
+        
+
+
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Codes on my GitHub <a href="https://github.com/Hrushi-E" target="_blank">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="30">
+            </a></p>
+            
+            <ul>
+                <li>
+                    <strong>FlexTree: Gaze-Controlled Interfaces with Context-Based Letter and Word Predictions</strong><span>[Jan 2023 - Jun 2024]</span><br>
+                    Developed a novel intelligent multimodal virtual tree-based text entry interface using Tkinter with audio and visual feedback to help detect dyslexic children.<br>
+                    Built a lightweight language model for English by training on 300k+ tokens, predicting the next character using PPM (Prediction by Partial Matching) and NCP (Next Character Prediction).<br>
+                    Incorporated Eye-Tribe Eye Tracker and mouse functionality for selection of letters on the interface.<br>
+                    Achieved typing speeds of 30.70 and 18.47 letters per minute using the mouse and eye tracker, respectively, which are nearly 2.7 times faster than Dasher.<br>
+                    Based on this work, a paper titled “Predictive Tree-based Virtual Keyboard for Improved Gaze Typing” was submitted to IEEE SMC2024 and accepted.<br>
+                    Currently working on publishing a journal based on this work.
+                </li>
+                <li>
+                    <strong>Helmet Detection and License Plate Extraction Using Yolov3 and Darknet</strong><span>[Feb - Jun 2021]</span><br>
+                    Collected 4000 images (800 per class) using OIDv4, trained the model using Yolov3 on Darknet, and achieved an average precision of 87.49%.<br>
+                    Trained a new model on 2800 manually labeled images, achieving 97.51% average precision.<br>
+                    Built a TensorFlow model for license plate extraction using improved model weights.
+                </li>
+                <li>
+                    <strong>Web App for ToDo Lists</strong>
+                    <span>[Aug 2020]</span><br>
+                    Developed a simple web app using Django, SQLite3, and HTML to allow users to create and manage tasks and subtasks.
+                </li>
+                <li>
+                    <strong>Gold-Stock-Price-Prediction</strong>
+                    <span>[Jan - May 2023]</span><br>
+                    Developing a stock price predictor using SVM and Regression algorithms for gold stock prices from “2020-01-01” to “2024-01-01” using data from yfinance.
+                </li>
+                <li>
+                    <strong>Loan-Prediction-System</strong>
+                    <span>[Jan - May 2023]</span><br>
+                    Created a notebook comparing various ML algorithms to predict whether a loan will be granted. Algorithms used include GaussianNB, SVC with Grid Search CV, XGBoost Classifier, Decision Tree with Randomized Search, and Random Forest with Randomized Search.
+                </li>
+                <li>
+                    <strong>Iris-Flowers-Classification</strong>
+                    <span>[Jan - May 2023]</span><br>
+                    Used various ML algorithms to classify Iris flowers, performing hyperparameter tuning to select the best models. Algorithms used include Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, SVC, KNN, and XGBoost.
+                </li>
+                <li>
+                    <strong>California House Price Prediction</strong>
+                    <span>[Jan - May 2023]</span><br>
+                    Developed an end-to-end machine learning project focusing on data visualization and feature engineering using linear regression to predict house prices in California.
+                </li>
+                <li>
+                    <strong>Breast-Cancer-Detection</strong>
+                    <span>[Jan - May 2023]</span><br>
+                    Built a Logistic Regression model from scratch, achieving an accuracy of 0.883, and compared against regression models from scikit-learn with hyperparameter tuning for better model performance.
+                </li>
+                <li>
+                    <strong>Airfoil-Self-Noise-Prediction</strong>
+                    <span>[Jan - May 2023]</span><br>
+                    Applied various ML algorithms for predicting airfoil self-noise, with models such as Linear Regression, Lasso, Ridge, Decision Tree, Random Forest, Gradient Boosting, Support Vector Machines, KNN, and XGBoost.
+                </li>
+            </ul>
+        
+            <div class="bubble-icon" onclick="scrollToTop()">⬆️ Scroll up</div>
+        </section>
+        
+
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>LLM - Python Engineer, Turing Enterprises Inc</strong>  
+                    <span>          [October 2024 - Present]</span><br>
+                    Focused on prompt engineering, function calling, and structured output generation projects. Working on creating notebooks for Supervised Fine Tuning for large language models, enhancing their performance, and improving their interactions.
+                </li>
+                <li>
+                    <strong>Teaching Assistant - Digital Systems Course</strong>  
+                    <span>          [Jan - May 2024]</span><br>
+                    Guided 20+ students in Verilog labs, and was appreciated by the professor for exceptional performance and adaptability. Gained exposure to a Top-Down working culture.
+                </li>
+                <li>
+                    <strong>Teaching Assistant - Digital Systems Course</strong>  
+                    <span>          [Aug - Dec 2022]</span><br>
+                    Guided 20+ students in Verilog labs and was praised for outstanding contributions to student learning. Gained valuable exposure to a Top-Down working culture.
+                </li>
+                <li>
+                    <strong>Teaching Assistant - Databases Course</strong>  
+                    <span>          [Jan - Apr 2023]</span><br>
+                    Assisted 160+ students with assignment preparation and corrections, gaining exposure to a Bottom-Up working culture.
+                </li>
+                <li>
+                    <strong>Teaching Assistant - Computing Course (Python Programming Lab)</strong>  
+                    <span>          [Aug - Dec 2023]</span><br>
+                    Assisted 420+ students in the Python programming lab and contributed to the creation of questions and course material.
+                </li>
+                <li>
+                    <strong>Freelance Computer Science Tutor</strong>  
+                    <span>          [May 2021 - June 2022]</span><br>
+                    Supported 250+ students on CourseHero with a 96% helpful rate, enhancing their knowledge and application of various topics in computer science through problem-solving and engagement with a diverse student community.
+                </li>
+            </ul>
+        
+            <div class="bubble-icon" onclick="scrollToTop()">⬆️ Scroll up</div>
+        </section>
+        
+
+
+
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul class="achievement-list">
+                <li>🏆 <strong>PRATIBHA AWARD:</strong> Received for academic excellence in the 10th standard from the Government of Andhra Pradesh.</li>
+                <li>🥇 <strong>Intermediate Public Exams:</strong> Ranked <strong>1st in Town</strong> and <strong>2nd in District</strong>.</li>
+                <li>📊 <strong>EAMCET 2017:</strong> Secured <strong>Rank 2971</strong> out of <strong>1.8 lakh students</strong> (Govt. of AP).</li>
+                <li>🎓 <strong>GATE 2022:</strong> Secured <strong>Rank 981</strong> out of <strong>77,257 students</strong>.</li>
+                <li>💻 <strong>Coding Ninjas:</strong> Recognized as an <strong>Expert Coder</strong>.</li>
+                <li>🔥 <strong>Coding Ninjas Contests:</strong> Better than <strong>89.26%</strong> of coders with <strong>2158 weekend contest rating points</strong>.</li>
+                <li>🚀 <strong>Competitive Programming:</strong> Solved <strong>500+ questions</strong> and earned multiple badges across platforms like <strong>Coding Ninjas, HackerRank, CodeChef, Codeforces, and LeetCode</strong>.</li>
+                <li>♟️ <strong>Chess Enthusiast:</strong> Achieved <strong>1700+ rating</strong> on <strong>Lichess</strong>.</li>
+            </ul>
+            <div class="bubble-icon" onclick="scrollToTop()">⬆️ Scroll up</div>
+        </section>
+
+
+
+
+
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>💻 Programming Languages & Concepts</h3>
+                    <p>Python, C, C++, OOPs, SQL, HTML, Verilog</p>
+                </div>
+                <div class="skill-category">
+                    <h3>🛠️ Tools & Libraries</h3>
+                    <p>NumPy, Pandas, Matplotlib, Scikit-learn, Git, GitHub, Django, Tkinter, SQLite3, Vivado</p>
+                </div>
+                <div class="skill-category">
+                    <h3>📚 Courses & Domains</h3>
+                    <p>Data Structures, Algorithms, Operating Systems, Databases, Machine Learning,Deep Learning, Computer Organization and Architecture</p>
+                </div>
+                <div class="skill-category">
+                    <h3>🤖 AI & Emerging Technologies</h3>
+                    <p>Prompt Engineering, LLM Training</p>
+                </div>
+            </div>
+            <div class="bubble-icon" onclick="scrollToTop()">⬆️ Scroll up</div>
+        </section>
+
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>
+                <a href="resume.pdf" target="_blank">📄 View Resume</a>
+            </p>
+            <div class="bubble-icon" onclick="scrollToTop()">⬆️ Scroll up</div>
+        </section>
+            
+
+        
+        <script>
+            function showResume() {
+                document.getElementById('resume-container').style.display = 'block';
+                document.getElementById('resume-viewer').src = 'resume.pdf'; // Set the resume file path
+            }
+        </script>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to connect with me on my social media links.</p>
+            <!-- Social Media Links -->
+            <div class="social-links">
+                
+                <a href="https://github.com/Hrushi-E" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="30">
+                </a>
+                <a href="https://twitter.com/Hrushi_me" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="X" width="30">
+                </a>
+                <a href="https://www.linkedin.com/in/hrushikesh-etikikota-663497210/" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="30">
+                </a>
+                <a href="mailto:hrushikeshetikikota@alumni.iitgn.ac.in">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Mail_%28iOS%29.svg" alt="Mail" width="30">
+                </a>
+            </div>
+            
+            
+        
+
+        
+            <!-- Scroll to Top Button -->
+            <div class="bubble-icon" onclick="scrollToTop()">⬆️ Scroll up</div>
+        </section>
+        
+    </div>
+
+
+    <!-- Link to Version 1 -->
+    <div class="version-link">
+        <p>Want to view the previous version? Visit <a href="/version-1/">Version 1</a></p>
+    </div>
+
+    <script>
+        const toggle = document.getElementById('toggle');
+        const body = document.body;
+        
+        toggle.addEventListener('change', () => {
+            body.classList.toggle('dark-theme');
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll to the top
+            });
+        }
+    </script>
+</body>
+</html>

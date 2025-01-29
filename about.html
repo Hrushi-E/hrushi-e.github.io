@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <label for="toggle">Toggle Dark Mode</label>
+        <input type="checkbox" id="toggle">
+    </div>
+
+    <h2>About Me</h2>
+    <p>Your about me content goes here.</p>
+    <div class="bubble-icon" onclick="index.html">⬆️ </div>
+
+    <script>
+        const toggle = document.getElementById('toggle');
+        const body = document.body;
+        
+        toggle.addEventListener('change', () => {
+            body.classList.toggle('dark-theme');
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll to the top
+            });
+        }
+    </script>
+</body>
+</html>
