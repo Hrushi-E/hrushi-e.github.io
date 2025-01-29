@@ -5,8 +5,8 @@ body {
     background-image: url('img2.jpeg'); /* Replace with your own moving astronaut background GIF */
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: auto;
-    animation: move-background 30s linear infinite;
+    overflow: auto; /* Ensure overflow is set to auto */
+    animation: move-background 30s linear infinite; /* Background animation */
 }
 
 @keyframes move-background {
@@ -17,87 +17,88 @@ body {
 .container {
     text-align: center;
     position: relative;
-    margin-top: 200px;
+    margin-top: 200px; /* Adjust this value to move the container down */
 }
 
 .profile-image {
-    position: relative;
-    margin: 0 auto;
+    position: relative; /* Position relative to allow absolute positioning of the image */
+    margin: 0 auto; /* Center the profile image */
 }
 
 .profile-image img {
-    width: 150px;
-    height: 150px;
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
     border-radius: 50%;
 }
 
 .bubbles {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%; /* Center the bubbles vertically relative to the container */
+    left: 50%; /* Center the bubbles horizontally relative to the container */
+    transform: translate(-50%, -50%); /* Center the bubbles */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 400px;
-    animation: revolve 100s linear infinite;
+    width: 400px; /* Adjust the diameter of the bubble circle */
+    height: 400px; /* Adjust the diameter of the bubble circle */
+    animation: revolve 100s linear infinite; 
+    
 }
 
 @keyframes revolve {
     from {
-        transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg); /* Start at 0 degrees */
     }
     to {
-        transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-50%, -50%) rotate(360deg); /* Complete a 360 degree revolution */
     }
 }
 
 @keyframes revolve2 {
     from {
-        transform: translate(-50%, -50%) rotate(0deg);
+        transform: translate(-50%, -50%) rotate(0deg); /* Start at 0 degrees */
     }
     to {
-        transform: translate(-50%, -50%) rotate(-360deg);
+        transform: translate(-50%, -50%) rotate(-360deg); /* Complete a 360 degree revolution */
     }
 }
 
 .bubble {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 110px;
-    height: 110px;
-    background-color: #003366;
+    display: flex; /* Use flex to center text inside the bubble */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    width: 110px; /* Set a fixed width for round shape */
+    height: 110px; /* Set a fixed height for round shape */
+    background-color: #003366; /* Deep blue */
     color: white;
-    border-radius: 50%;
+    border-radius: 50%; /* Make the bubble round */
     text-decoration: none;
     transition: background-color 0.3s;
     position: absolute;
-    animation: revolve2 100s linear infinite;
+    animation: revolve2 100s linear infinite; /* Slow clockwise revolution */
 }
 
-.bubble:nth-child(1) { top: 0%; left: 50%; transform: translate(-50%, -50%); }
-.bubble:nth-child(2) { top: 15%; left: 85%; transform: translate(-50%, -50%); }
-.bubble:nth-child(3) { top: 50%; left: 100%; transform: translate(-50%, -50%); }
-.bubble:nth-child(4) { top: 85%; left: 85%; transform: translate(-50%, -50%); }
-.bubble:nth-child(5) { top: 100%; left: 50%; transform: translate(-50%, -50%); }
-.bubble:nth-child(6) { top: 85%; left: 15%; transform: translate(-50%, -50%); }
-.bubble:nth-child(7) { top: 50%; left: 0%; transform: translate(-50%, -50%); }
-.bubble:nth-child(8) { top: 15%; left: 15%; transform: translate(-50%, -50%); }
+.bubble:nth-child(1) { top: 0%; left: 50%; transform: translate(-50%, -50%); } /* Top center */
+.bubble:nth-child(2) { top: 15%; left: 85%; transform: translate(-50%, -50%); } /* Right center */
+.bubble:nth-child(3) { top: 50%; left: 100%; transform: translate(-50%, -50%); } /* Bottom right */
+.bubble:nth-child(4) { top: 85%; left: 85%; transform: translate(-50%, -50%); } /* Bottom center */
+.bubble:nth-child(5) { top: 100%; left: 50%; transform: translate(-50%, -50%); } /* Bottom center */
+.bubble:nth-child(6) { top: 85%; left: 15%; transform: translate(-50%, -50%); } /* Bottom left */
+.bubble:nth-child(7) { top: 50%; left: 0%; transform: translate(-50%, -50%); } /* Top left */
+.bubble:nth-child(8) { top: 15%; left: 15%; transform: translate(-50%, -50%); } /* Top center */
 
 .bubble span {
-    display: block;
-    transform: rotate(0deg);
+    display: block; /* Ensure the text is treated as a block element */
+    transform: rotate(0deg); /* Keep text horizontal */
 }
 
 .bubble:hover {
-    background-color: #001f33;
+    background-color: #001f33; /* Darker blue on hover */
 }
 
 .sections {
-    margin-top: 400px;
+    margin-top: 400px; /* Adjust this value to ensure sections do not overlap with bubbles */
     padding: 20px;
 }
 
@@ -121,38 +122,42 @@ section {
 
 /* Custom Scrollbar Styles */
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 12px; /* Width of the scrollbar */
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f1f1f1; /* Background of the scrollbar track */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #555; /* Color of the thumb on hover */
 }
 
 .theme-toggle {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute; /* Fixes the position relative to the viewport */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    z-index: 1000; /* Ensures it stays above other content */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: background for better visibility */
+    padding: 10px; /* Padding around the toggle */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
 }
 
 .theme-toggle label {
-    margin-right: 5px;
+    margin-right: 5px; /* Space between label and checkbox */
 }
 
-/* Contact Info */
+
+
+/*Contact Info*/
+
+
 .contact-details p, .social-links a {
     margin: 8px 0;
     font-size: 18px;
