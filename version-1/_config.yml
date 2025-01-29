@@ -1,0 +1,37 @@
+title: "Hrushikesh Etikikota"
+author: "Hrushi"
+description: ""
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+
+# Menu
+# Just removed
+#- {file: "index.md",title: "Home"}
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "skills.md",title: "Skills"}
+  - {url: "https://hrushi-e.github.io/Hrushikesh_Resume.pdf" , title: "Resume"}
+  - {file: "projects.md",title: "Projects"}
+  - {file: "experience.md",title: "Experience"}
+  - {file: "achievements.md", title: "Achievements"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:hrushikeshetikikota@iitgn.ac.in"}
+  - {title: Github, icon: github, url: "https://github.com/Hrushi-E"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/hrushikesh-etikikota-663497210/"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/Hrushi_me"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
