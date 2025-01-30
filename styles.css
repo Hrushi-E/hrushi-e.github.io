@@ -102,23 +102,24 @@ body {
     padding: 20px;
 }
 
+
 section {
     margin: 50px 0;
     padding: 20px;
-    background-color: rgb(106, 205, 230);
+    background-color: rgb(196, 236, 104);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: black; /* Ensure text inside sections is black */
 }
 
 .dark-theme {
     background-color: #121212;
     color: white;
 }
-
 .dark-theme .sections {
-    background-color: #1e1e1e;
-    color: white;
+    color: black; /* Ensure black text in sections even in dark mode */
 }
+
 
 /* Custom Scrollbar Styles */
 ::-webkit-scrollbar {
