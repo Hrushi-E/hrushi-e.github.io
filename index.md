@@ -12,7 +12,9 @@
 
 ## 📍 Quick Navigation
 
-[About Me](#-about-me) | [Education](#-education) | [Projects](#-projects) | [Experience](#-experience) | [Achievements](#-achievements) | [Skills](#-skills) | [Resume](#-resume) | [Contact](#-contact-me)
+[About Me](#-about-me) | [Education](#-education) | [Projects](#-projects) | [Experience](#-experience)
+
+[Achievements](#-achievements) | [Skills](#-skills) | [Resume](#-resume) | [Contact](#-contact-me)
 
 ---
 
@@ -119,15 +121,15 @@ _Feb - Jun 2021_
 
 ### 💻 Languages & Concepts
 
-`Python` `C` `C++` `SQL` `HTML` `Verilog` `OOPS` `Data Structures` `Algorithms`
+Python, C, C++, SQL, HTML, Verilog, OOPS, Data Structures, Algorithms
 
 ### 🛠️ Tools & Libraries
 
-`NumPy` `Pandas` `Matplotlib` `Scikit-learn` `Git` `GitHub` `Django` `Tkinter` `SQLite3` `PyTorch` `TensorFlow`
+NumPy, Pandas, Matplotlib, Scikit-learn, Git, GitHub, Django, Tkinter, SQLite3, PyTorch, TensorFlow
 
 ### 🤖 AI Domains
 
-`LLM Training` `Prompt Engineering` `Deep Learning` `Machine Learning` `Computer Vision`
+LLM Training, Prompt Engineering, Deep Learning, Machine Learning, Computer Vision
 
 ---
 
