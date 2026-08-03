@@ -1,7 +1,7 @@
 # Hrushikesh Etikikota 🚀
 
 <p align="left">
-  <img src="https://img.shields.io/badge/-Data Scientis/Data Engineer (SWE Bench Creation)-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Data Scientis/Data Engineer (SWE Bench Creation)-black?style=for-the-badge" />
   <img src="https://img.shields.io/badge/-Business%20Analyst-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/-Python LLM%20Engineer-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/-Subject%20Matter%20Expert-yellow?style=for-the-badge" />
